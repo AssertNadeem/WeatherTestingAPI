@@ -1,0 +1,12 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "BNZ_Weather tests">
+    <listeners>
+        <listener class-name="com.aventstack.extentreports.testng.listener.ExtentITestListenerClassAdapter"></listener>
+    </listeners>
+    <test name = "WeatherTesting">
+        <classes>
+            <class name = "com.weather.WeatherTests" />
+        </classes>
+    </test>
+</suite>

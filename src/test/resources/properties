@@ -1,0 +1,2 @@
+endPoint=//https://api.open-meteo.com/v1/forecast
+fullPath=String url = "https://api.open-meteo.com/v1/forecast?latitude=-36.8485&longitude=174.7635&daily=weathercode,sunrise&timezone=Pacific/Auckland";
